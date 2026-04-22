@@ -1,2 +1,38 @@
+# Binaries
+/bin/
+/build/
+/dist/
+
+# Go build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+
+# Coverage
+*.out
+
+# Dependency directories (se usar vendoring)
+vendor/
+
+# Environment variables
 .env
-app.db
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
