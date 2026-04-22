@@ -3,9 +3,10 @@ package database
 import (
 	"log"
 
+	"auth-api-jwt/internal/model"
+
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
-	"yourmodule/internal/model"
 )
 
 var DB *gorm.DB

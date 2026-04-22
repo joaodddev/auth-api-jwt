@@ -1,11 +1,11 @@
 package main
 
 import (
-	"yourmodule/configs"
-	"yourmodule/internal/controller"
-	"yourmodule/internal/repository"
-	"yourmodule/internal/service"
-	"yourmodule/pkg/database"
+	"auth-api-jwt/configs"
+	"auth-api-jwt/internal/controller"
+	"auth-api-jwt/internal/repository"
+	"auth-api-jwt/internal/service"
+	"auth-api-jwt/pkg/database"
 
 	"github.com/gin-gonic/gin"
 )

@@ -3,8 +3,8 @@ package controller
 import (
 	"net/http"
 
-	"yourmodule/internal/dto"
-	"yourmodule/internal/service"
+	"auth-api-jwt/internal/dto"
+	"auth-api-jwt/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"yourmodule/internal/model"
+	"auth-api-jwt/internal/model"
 
 	"gorm.io/gorm"
 )

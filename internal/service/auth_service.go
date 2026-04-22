@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"yourmodule/internal/model"
-	"yourmodule/internal/repository"
+	"auth-api-jwt/internal/model"
+	"auth-api-jwt/internal/repository"
 
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"
